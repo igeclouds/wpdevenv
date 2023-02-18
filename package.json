@@ -1,0 +1,72 @@
+{
+  "name": "IGE CLOUD Website dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Docker-based local development environment for projects",
+  "repository": "https://github.com/igewebs/docker-wordpress-dev",
+  "license": "MIT",
+  "author": "IGE CLOUD (https://www.igecloud.com/)",
+  "contributors": [
+    "Joe Maller <moses.f@igelimited.com>"
+  ],
+  "scripts": {
+    "bump": "npm run wordpress:bump",
+    "shfmt": "docker compose run --rm shfmt",
+    "version": "version-everything && auto-changelog && git add -u",
+    "wordpress:bump": "docker-compose run --rm bump-wp"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "printWidth": 120,
+          "tabWidth": 2
+        }
+      },
+      {
+        "files": "*.json",
+        "options": {
+          "printWidth": 120
+        }
+      },
+      {
+        "files": "*.md",
+        "options": {
+          "embeddedLanguageFormatting": "off"
+        }
+      },
+      {
+        "files": "*.php",
+        "options": {
+          "printWidth": 100,
+          "singleQuote": true,
+          "tabWidth": 4,
+          "trailingCommaPHP": true
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.19.2",
+    "auto-changelog": "^2.4.0",
+    "prettier": "^2.7.1",
+    "version-everything": "^0.9.1"
+  },
+  "auto-changelog": {
+    "package": true,
+    "backfillLimit": 7
+  },
+  "version-everything": {
+    "prefix": "igeclouds/wordpress:",
+    "files": [
+      "bin/docker-entrypoint-iop.sh",
+      "bin/getting-started.sh",
+      "bin/permissions.sh",
+      "bin/pull.sh",
+      "bin/wp-init.sh",
+      "Dockerfile",
+      "README.md"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "",
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "vendor-dir": "wp-content/themes/THEME_NAME/vendor",
+    "platform": {
+      "php": "8.0",
+      "ext-intl": "0"
+    }
+  },
+  "authors": [
+    {
+      "name": "Internet Governance Experts",
+      "homepage": "https://www.igecloud.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "igeclouds\\": [
+        "wp-content/themes/THEME_NAME/lib"
+      ]
+    }
+  },
+  "require": {
+    "igeclouds/wp-google-analytics": "^1.1.0",
+    "igeclouds/wp-svg-lib": "^2.0.1",
+    "igeclouds/wp-theme-init": "^2.9.0",
+    "igeclouds/wp-vimeo-embed": "dev-master",
+    "igeclouds/wordpress-stubs": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/igeclouds/wp-vimeo-embed",
+      "no-api": true
+    }
+  ]
+}
