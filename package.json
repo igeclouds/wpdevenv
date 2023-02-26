@@ -1,13 +1,13 @@
 {
-  "name": "IGE CLOUD Website dev",
+  "name": "docker-wordpress-dev",
   "version": "1.0.0",
   "private": true,
-  "description": "Docker-based local development environment for projects",
-  "repository": "https://github.com/igewebs/docker-wordpress-dev",
+  "description": "Docker-based local development environment for WordPress projects",
+  "repository": "https://github.com/ideasonpurpose/docker-wordpress-dev",
   "license": "MIT",
-  "author": "IGE CLOUD (https://www.igecloud.com/)",
+  "author": "Ideas On Purpose (https://www.ideasonpurpose.com/)",
   "contributors": [
-    "Joe Maller <moses.f@igelimited.com>"
+    "Joe Maller <joe@ideasonpurpose.com>"
   ],
   "scripts": {
     "bump": "npm run wordpress:bump",
@@ -58,7 +58,7 @@
     "backfillLimit": 7
   },
   "version-everything": {
-    "prefix": "igeclouds/wordpress:",
+    "prefix": "ideasonpurpose/wordpress:",
     "files": [
       "bin/docker-entrypoint-iop.sh",
       "bin/getting-started.sh",
