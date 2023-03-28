@@ -2,7 +2,7 @@ services:
   # This service bumps the WordPress verion in the Dockerfile to the latest release.
   # See the bin/bump-wordpress.sh script for docs
   #
-  # https://hub.docker.com/r/jetbrainsinfra/jq
+  # https://github.com/igeclouds/wordpressdevenv
   bump-wp:
     image: jetbrainsinfra/jq:latest
     volumes:
