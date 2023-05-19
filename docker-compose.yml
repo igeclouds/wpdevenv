@@ -12,7 +12,7 @@ services:
 
   # Wrapper for the shfmt docker image
   # Simplifies formatting scripts
-  # https://hub.docker.com/r/mvdan/shfmt 
+  https://hub.docker.com/r/mvdan/shfmt 
   shfmt:
     image: mvdan/shfmt:latest-alpine
     user: "${UID:-1000}:${GID:-1000}"
