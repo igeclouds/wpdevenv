@@ -5,10 +5,10 @@ Version 1.0.0
 <!-- WPVERSION -->- WordPress 6.1.1
 </h4>
 
-<!-- [![dockeri.co](https://dockeri.co/image/ideasonpurpose/wordpress)](https://hub.docker.com/r/ideasonpurpose/wordpress)<br> -->
+<!-- [![dockeri.co](https://dockeri.co/image/igecloud/wordpressdevenv)](https://hub.docker.com/r/igecloud/wordpressdevenv)<br> -->
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/ideasonpurpose/wordpress)](https://hub.docker.com/r/ideasonpurpose/wordpress)
-[![Push to Docker Hub](https://github.com/ideasonpurpose/docker-wordpress-dev/workflows/Push%20to%20Docker%20Hub/badge.svg)](https://github.com/ideasonpurpose/docker-wordpress-dev)
+[![Docker Pulls](https://img.shields.io/docker/pulls/igecloud/wordpressdevelopment)](https://hub.docker.com/r/igecloud/wordpressdevelopment)
+[![Push to Docker Hub](https://github.com/igecloud/docker-wordpress-dev/workflows/Push%20to%20Docker%20Hub/badge.svg)](https://github.com/igeclouds/wordpressdevenv)
 
 ## About This Project
 
