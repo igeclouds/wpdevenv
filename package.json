@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "description": "Docker-based local development environment for WordPress projects",
-  "repository": "https://github.com/ideasonpurpose/docker-wordpress-dev",
+  "repository": "https://github.com/igeclouds/wordpressdevenv",
   "license": "MIT",
-  "author": "Ideas On Purpose (https://www.ideasonpurpose.com/)",
+  "author": "IGE CLOUDS (https://www.igeclouds.com/)",
   "contributors": [
-    "Joe Maller <joe@ideasonpurpose.com>"
+    "Web Master <support@igedevteam.onmicrosoft.com>"
   ],
   "scripts": {
     "bump": "npm run wordpress:bump",
@@ -58,7 +58,7 @@
     "backfillLimit": 7
   },
   "version-everything": {
-    "prefix": "ideasonpurpose/wordpress:",
+    "prefix": "igeclouds/wordpress:",
     "files": [
       "bin/docker-entrypoint-iop.sh",
       "bin/getting-started.sh",
