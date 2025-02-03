@@ -3,7 +3,8 @@ name: Update Docker Hub README
 on:
   push:
     branches: [master]
-
+            : [main]
+            : [wpdevenv]
 jobs:
   build:
     runs-on: ubuntu-latest
